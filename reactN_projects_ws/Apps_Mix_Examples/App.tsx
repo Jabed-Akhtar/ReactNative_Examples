@@ -16,7 +16,8 @@ import {
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
-import PasswordGenerator_App from './components/PasswordGenerator_App'
+//import PasswordGenerator_App from './components/PasswordGenerator_App'
+import BackgroundRandomColorChangerOnButton_App from './components/BackgroundRandomColorChangerOnButton_App';
 
 /* Main-App ================================================================= */
 function App(): JSX.Element {
@@ -33,7 +34,8 @@ function App(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <View>
-        <PasswordGenerator_App />
+        {/* 1. Passwrod generator App - <PasswordGenerator_App />*/}
+        <BackgroundRandomColorChangerOnButton_App />
       </View>
     </SafeAreaView>
   );
