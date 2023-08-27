@@ -17,7 +17,9 @@ import {
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 //import PasswordGenerator_App from './components/PasswordGenerator_App'
-import BackgroundRandomColorChangerOnButton_App from './components/BackgroundRandomColorChangerOnButton_App';
+//import BackgroundRandomColorChangerOnButton_App from './components/BackgroundRandomColorChangerOnButton_App';
+//import RollDice_App from './components/RollDice_App/RollDice_App';
+import CurrencyConvertor_App from './components/CurrencyConvertor_App/App_Main';
 
 /* Main-App ================================================================= */
 function App(): JSX.Element {
@@ -35,7 +37,9 @@ function App(): JSX.Element {
       />
       <View>
         {/* 1. Passwrod generator App - <PasswordGenerator_App />*/}
-        <BackgroundRandomColorChangerOnButton_App />
+        {/* 2. Passwrod generator App - <BackgroundRandomColorChangerOnButton_App />*/}
+        {/* 3. Roll Dice App - <RollDice_App />*/}
+        <CurrencyConvertor_App />
       </View>
     </SafeAreaView>
   );
