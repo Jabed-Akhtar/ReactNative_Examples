@@ -19,24 +19,6 @@
 
 /* Imports ================================================================== */
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
 // Navigation
 import {NavigationContainer} from "@react-navigation/native"
@@ -55,12 +37,6 @@ const Stack = createNativeStackNavigator<RootStackParamList>()
 
 /* Main-App ================================================================= */
 function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   /*--------------- Return View ---------------*/
   return (
     <NavigationContainer>
