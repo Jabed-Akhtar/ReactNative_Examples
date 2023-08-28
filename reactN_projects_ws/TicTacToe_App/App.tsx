@@ -1,25 +1,25 @@
- /*
- ******************************************************************************
- * @file           : ...
- * @brief          : ...
- ******************************************************************************
- * @author         : Jabed-Akhtar (Github)
- * @creation-date  : 27.08.2023
- ******************************************************************************
- * Packages:
- * - react-native-vector-icons (npm i react-native-vector-icons)
- *      :needed: (npm i @types/react-native-vector-icons)
- * - (npm i react-native-snackbar)
- * Features:
- * - FontAwesome
- * Description:
- * - Follos steps to set up for android: https://www.npmjs.com/package/react-native-vector-icons#android
- ******************************************************************************
- */
+/*
+******************************************************************************
+* @file           : ...
+* @brief          : ...
+******************************************************************************
+* @author         : Jabed-Akhtar (Github)
+* @creation-date  : 27.08.2023
+******************************************************************************
+* Packages:
+* - react-native-vector-icons (npm i react-native-vector-icons)
+*      :needed: (npm i @types/react-native-vector-icons)
+* - (npm i react-native-snackbar)
+* Features:
+* - FontAwesome
+* Description:
+* - Follos steps to set up for android: https://www.npmjs.com/package/react-native-vector-icons#android
+******************************************************************************
+*/
 
- /* Imports ================================================================== */
+/* Imports ================================================================== */
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
